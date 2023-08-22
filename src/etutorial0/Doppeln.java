@@ -1,4 +1,5 @@
 package etutorial0;
+// Aufgabe ETH Zahl verdoppeln
 
 public class Doppeln {
     public static void main(String[] args) {
