@@ -1,3 +1,4 @@
+// First programm during ZHAW OOP
 import java.util.Arrays;
 
 import static ui.Output.printNumberToConsole;
