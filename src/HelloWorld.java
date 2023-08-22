@@ -1,4 +1,4 @@
-// First programm during ZHAW OOP
+// First programm during ZHAW CAS OOP
 import java.util.Arrays;
 
 import static ui.Output.printNumberToConsole;
