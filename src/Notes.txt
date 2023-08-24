@@ -31,7 +31,6 @@ int x; 								// Hier wird eine Variable als int deklariert
 // Konstante deklarieren
 final int x;							// Hier wird eine Konstante als int deklariert
 
-
 // Bildschirmausgabe 					
 // ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen
 // "" werden für feste Texte verwendet -> Variablen stehen ausserhalb
