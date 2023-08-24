@@ -28,6 +28,9 @@ Operator	Ausdruck	Beschreibung
 // Variablen deklarieren
 int x; 								// Hier wird eine Variable als int deklariert
 
+// Variable umwandeln
+variable1 = (int) variable2					// Variable2 wird in int umgewandelt. Das Resultat in variable1 gespeichert
+
 // Konstante deklarieren
 final int x;							// Hier wird eine Konstante als int deklariert
 
@@ -42,3 +45,4 @@ import java.util.Scanner;					// Einfügen oberhalb public class
 Scanner eingabe = new Scanner(System.in);			// Einfügen unterhalb public static void.main(...
 int x;								// Deklarieren der Variable hier als int
 x = eingabe.nextInt();						// Eingabe über Konsole und speicherung in Variable hier x
+
