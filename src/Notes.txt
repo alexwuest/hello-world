@@ -24,5 +24,8 @@ Operator	Ausdruck	Beschreibung
 /		a / b		Division
 %		a % b		Modulo (ganzzahliger Rest der Division)
 
-// Bildschirmausgabe
-System.out.println("Eingabe: " + a); (ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen / "" werden für feste Texte verwendet / Variablen stehen ausserhalb / + fügt verschiedene Texte und z.B. Variablen oder Konstanten zusammen)
+/* Bildschirmausgabe / ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen
+"" werden für feste Texte verwendet -> Variablen stehen ausserhalb
++ fügt verschiedene Texte und z.B. Variablen oder Konstanten zusammen */
+
+System.out.println("Eingabe: " + a); ()
