@@ -6,15 +6,15 @@ public static void main(String[] args) {
         }
 
 // JAVA Datentypen
-Typen	Beschreibung				Grösse		
-char	Einzelzeichen (Character)	16 bit		Unicode Zeichen
-byte	Ganzzahl					8 bit		-128...127
-short	Ganzzahl					16 bit		-32768...32767
-int		Ganzzahl					32 bit		-2147483648...2147483647
-long	Ganzzahl					64 bit		-9223372036854775808...9223372036854775807
-float	Gleitkommazahl				32 bit		-3.40282347 *10(hoch 38) bis 3.40282347 *10(hoch 38)
-double	Gleitkommazahl				64 bit		-1.79769313486231570 *10(hoch 308) bis 1.79769313486231570 *10(hoch 308)
-boolean	Boolscher Wert				8 bit		true/false
+Typen		Beschreibung				Grösse		
+char		Einzelzeichen (Character)	16 bit		Unicode Zeichen
+byte		Ganzzahl					8 bit		-128...127
+short		Ganzzahl					16 bit		-32768...32767
+int			Ganzzahl					32 bit		-2147483648...2147483647
+long		Ganzzahl					64 bit		-9223372036854775808...9223372036854775807
+float		Gleitkommazahl				32 bit		-3.40282347 *10(hoch 38) bis 3.40282347 *10(hoch 38)
+double		Gleitkommazahl				64 bit		-1.79769313486231570 *10(hoch 308) bis 1.79769313486231570 *10(hoch 308)
+boolean		Boolscher Wert				8 bit		true/false
 
 // Operatoren
 Operator	Ausdruck	Beschreibung
