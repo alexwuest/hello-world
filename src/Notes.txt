@@ -46,3 +46,8 @@ Scanner eingabe = new Scanner(System.in);			// Einfügen unterhalb public static
 int x;								// Deklarieren der Variable hier als int
 x = eingabe.nextInt();						// Eingabe über Konsole und speicherung in Variable hier x
 
+// Runden von Eingaben
+x = Math.round(x * 100) / 100.0;				// Auf zwei Stellen Datentyp double
+x = Math.round(x * 100) / 100.0f;				// Auf zwei Stellen Datentyp float
+
+
