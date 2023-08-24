@@ -17,10 +17,10 @@ public class Bremsweg_Berechnung {
         geschwindigkeit = eingabe.nextInt();
 
         // Berechnung von Reaktionsweg
-        reaktionsweg = geschwindigkeit / 10 * 3;
+        reaktionsweg = geschwindigkeit / 10.0f * 3.0f;
 
         // Berechnung von Bremsweg
-        bremsweg = (geschwindigkeit / 10) * (geschwindigkeit / 10);
+        bremsweg = (geschwindigkeit / 10.0f) * (geschwindigkeit / 10.0f);
 
         // Brechnung von Anhalteweg
         anhalteweg = reaktionsweg + bremsweg;

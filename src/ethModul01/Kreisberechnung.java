@@ -11,17 +11,17 @@ public class Kreisberechnung {
         double radius;
         double umfang;
         double flaeche;
-        final double pi;
-        pi = 3.14159265359;
+        final double PI;
+        PI = 3.14159265359;
 
         // Radius Eingabe durch Benutzer
         System.out.println("Bitte geben Sie den Radius des Kreises ein:");
         radius = eingabe.nextDouble();
 
-        // Berechnung der Kreisfläche A = radius * radius * pi
-        // Berechnung des Kreisumfangs U = 2 * r * pi
-        flaeche = radius * radius * pi;
-        umfang = 2 * radius * pi;
+        // Berechnung der Kreisfläche A = radius * radius * PI
+        // Berechnung des Kreisumfangs U = 2 * r * PI
+        flaeche = radius * radius * PI;
+        umfang = 2.0 * radius * PI;
 
         // Werte auf 2 Kommastellen runden
         flaeche = Math.round(flaeche * 100) / 100.0;

@@ -50,4 +50,7 @@ x = eingabe.nextInt();						// Eingabe über Konsole und speicherung in Variable
 x = Math.round(x * 100) / 100.0;				// Auf zwei Stellen Datentyp double
 x = Math.round(x * 100) / 100.0f;				// Auf zwei Stellen Datentyp float
 
+// Konvention Variablen und Klassen
+Nie ein _ verwenden für variablen und Klassen. Als Ausnahme z.B. _variable wenn es sich um eine private Variable handelt.
+
 
