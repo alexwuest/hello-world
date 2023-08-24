@@ -15,6 +15,7 @@ long		Ganzzahl				64 bit		-9223372036854775808...9223372036854775807
 float		Gleitkommazahl				32 bit		-3.40282347 *10(hoch 38) bis 3.40282347 *10(hoch 38)
 double		Gleitkommazahl				64 bit		-1.79769313486231570 *10(hoch 308) bis 1.79769313486231570 *10(hoch 308)
 boolean		Boolscher Wert				8 bit		true/false
+String		Zeichenketten				Dynamisch	Zeichenketten
 
 // Operatoren
 Operator	Ausdruck	Beschreibung
@@ -24,11 +25,17 @@ Operator	Ausdruck	Beschreibung
 /		a / b		Division
 %		a % b		Modulo (ganzzahliger Rest der Division)
 
+// Variablen deklarieren
+int x; 								// Hier wird eine Variable als int deklariert
+
+// Konstante deklarieren
+final int x;							// Hier wird eine Konstante als int deklariert
+
+
 // Bildschirmausgabe 					
 // ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen
 // "" werden für feste Texte verwendet -> Variablen stehen ausserhalb
 // + fügt verschiedene Texte und z.B. Variablen oder Konstanten zusammen
-
 System.out.println("Eingabe: " + a);
 
 // Eingabe in Konsole
