@@ -1,0 +1,17 @@
+/* Dies sind meine persönlichen Notizen mit wichtigen Codefragmenten die mir während meiner Ausbildung an der ZHAW begegnet sind. */
+// Nur eine Zeile kommentiert ;-)
+
+// Standardroutine die jede Klasse benötigt um von extern ausgeführt werden zu können.
+public static void main(String[] args) {
+        }
+
+//
+Typen	Beschreibung	Grösse 
+        char	Einzelzeichen (Character)	16 bit
+        byte	Ganzzahl	8 bit
+        short	Ganzzahl	16 bit
+        int	Ganzzahl	32 bit
+        long	Ganzzahl	64 bit
+        float	Gleitkommazahl	32 bit
+        double	Gleitkommazahl	64 bit
+        boolean	Boolscher Wert	8 bit
