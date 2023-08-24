@@ -1,6 +1,7 @@
 package ethModul01;
 
 public class Doppeln {
+
     //A fixed number in the variable zahl will be doubled
     public static void main(String[] args) {
         int zahl;
