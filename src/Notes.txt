@@ -24,8 +24,15 @@ Operator	Ausdruck	Beschreibung
 /		a / b		Division
 %		a % b		Modulo (ganzzahliger Rest der Division)
 
-/* Bildschirmausgabe / ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen
-"" werden für feste Texte verwendet -> Variablen stehen ausserhalb
-+ fügt verschiedene Texte und z.B. Variablen oder Konstanten zusammen */
+// Bildschirmausgabe 					
+// ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen
+// "" werden für feste Texte verwendet -> Variablen stehen ausserhalb
+// + fügt verschiedene Texte und z.B. Variablen oder Konstanten zusammen
 
-System.out.println("Eingabe: " + a); ()
+System.out.println("Eingabe: " + a);
+
+// Eingabe in Konsole
+import java.util.Scanner;					// Einfügen oberhalb public class
+Scanner eingabe = new Scanner(System.in);			// Einfügen unterhalb public static void.main(...
+int x;								// Deklarieren der Variable hier als int
+x = eingabe.nextInt();						// Eingabe über Konsole und speicherung in Variable hier x
