@@ -5,13 +5,24 @@
 public static void main(String[] args) {
         }
 
-//
-Typen	Beschreibung	Grösse 
-        char	Einzelzeichen (Character)	16 bit
-        byte	Ganzzahl	8 bit
-        short	Ganzzahl	16 bit
-        int	Ganzzahl	32 bit
-        long	Ganzzahl	64 bit
-        float	Gleitkommazahl	32 bit
-        double	Gleitkommazahl	64 bit
-        boolean	Boolscher Wert	8 bit
+// JAVA Datentypen
+Typen	Beschreibung				Grösse		
+char	Einzelzeichen (Character)	16 bit		Unicode Zeichen
+byte	Ganzzahl					8 bit		-128...127
+short	Ganzzahl					16 bit		-32768...32767
+int		Ganzzahl					32 bit		-2147483648...2147483647
+long	Ganzzahl					64 bit		-9223372036854775808...9223372036854775807
+float	Gleitkommazahl				32 bit		-3.40282347 *10(hoch 38) bis 3.40282347 *10(hoch 38)
+double	Gleitkommazahl				64 bit		-1.79769313486231570 *10(hoch 308) bis 1.79769313486231570 *10(hoch 308)
+boolean	Boolscher Wert				8 bit		true/false
+
+// Operatoren
+Operator	Ausdruck	Beschreibung
++			a + b		Addition
+-			a - b		Subtraktion
+*			a * b		Multiplikation
+/			a / b		Division
+%			a % b		Modulo (ganzzahliger Rest der Division)
+
+// Bildschirmausgabe
+System.out.println("Eingabe: " + a); (ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen / "" werden für feste Texte verwendet / Variablen stehen ausserhalb / + fügt verschiedene Texte und z.B. Variablen oder Konstanten zusammen)
