@@ -9,8 +9,8 @@ public class Doppeln {
         doppelte_zahl = zahl * 2;
 
         //Printing out the original number and the new doubled number
-        System.out.println("Ursprüngliche Zahl: "+ zahl);
-        System.out.println("Verdoppelte Zahl: "+ doppelte_zahl);
+        System.out.println("Ursprüngliche Zahl: " + zahl);
+        System.out.println("Verdoppelte Zahl: " + doppelte_zahl);
     }
 }
 
