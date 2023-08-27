@@ -23,27 +23,5 @@ public class Pin {
         else {
             System.out.println("Falsche Pin");
         }
-        /*
-        if (a == 0){
-            if (b == 0){
-                if (c == 7){
-                    System.out.println("Offen - Pin korrekt!");
-                }
-                else {
-                    System.out.println("Falsche Pin");
-                    System.exit(0);
-                }
-            }
-            else {
-                System.out.println("Falsche Pin");
-                System.exit(0);
-            }
-        }
-        else {
-            System.out.println("Falsche Pin");
-            System.exit(0);
-
-
-        }*/
     }
 }
