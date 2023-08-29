@@ -8,8 +8,8 @@ public class PinWhile3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter the 3 digit pin!");
         boolean i = false;
-        int t = 0;
-        while ((i != true) && (t < 3)){
+        int t = 3;
+        while ((i != true) && (t != 0)){
             // Pin entered by user
             System.out.println("Please enter the 1st digit of the pin: ");
             a = scanner.nextInt();
@@ -25,8 +25,8 @@ public class PinWhile3 {
                 System.out.println("You have entered the correct pin. Welcome!");
             }
             else {
-                System.out.println("Entered pin is not correct!");
-                t++;
+                t--;
+                System.out.println("Entered pin not correct! " + t + " attempts left.");
             }
         }
         if (t == 3){
