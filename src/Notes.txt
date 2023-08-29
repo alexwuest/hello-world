@@ -25,6 +25,16 @@ Operator	Ausdruck	Beschreibung
 /		a / b		Division
 %		a % b		Modulo (ganzzahliger Rest der Division)
 
+// Vergleichsoperatoren
+==		gleich
+!=		ungleich
+>		grösser als
+>=		grösser oder gleich
+<		kleiner als
+<=		kleiner oder gleich
+
+Weitere JAVA Operatoren -> https://www.ionos.de/digitalguide/websites/web-entwicklung/java-operator/
+
 // Variablen deklarieren
 int x; 								// Hier wird eine Variable als int deklariert
 
