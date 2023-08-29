@@ -33,7 +33,7 @@ Operator	Ausdruck	Beschreibung
 <		kleiner als
 <=		kleiner oder gleich
 
-Weitere JAVA Operatoren -> https://www.ionos.de/digitalguide/websites/web-entwicklung/java-operator/
+Weitere Operatoren >>>>> https://www.ionos.de/digitalguide/websites/web-entwicklung/java-operator/
 
 // Variablen deklarieren
 int x; 								// Hier wird eine Variable als int deklariert
@@ -43,6 +43,18 @@ variable1 = (int) variable2					// Variable2 wird in int umgewandelt. Das Result
 
 // Konstante deklarieren
 final int x;							// Hier wird eine Konstante als int deklariert
+
+// Schleifen
+for								// Wenn bekannt ist, wie viele Wiederholungen ausgeführt werden sollen
+while								// Nicht bekannt ist, wie viele Wiederholungen ausgeführt werden sollen
+do-while							// Mindestens ein Schleifendurchgang
+
+
+Eine Wiederholung von Anweisungen in einem Programm nennt man Schleife (engl. loop).
+Es gibt verschiedene Arten von Schleifen: for, while und do-while.
+for-Schleifen werden verwendet, wenn im voraus bekannt ist, wie viele Wiederholungen ausgeführt werden sollen.
+while-Schleifen werden verwendet, wenn im voraus nicht bekannt ist, wie viele Wiederholungen ausgeführt werden sollen.
+do-while-Schleifen werden verwendet, wenn mindestens ein Schleifendurchgang gemacht werden soll, ansonsten aber nicht im voraus bekannt ist, wie viele Wiederholungen ausgeführt werden sollen.
 
 // Bildschirmausgabe 					
 // ohne ln bei print wird die nächste Ausgabe auf der selben Zelle vorgenommen
