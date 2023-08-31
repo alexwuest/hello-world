@@ -35,22 +35,24 @@ Operator	Ausdruck	Beschreibung
 
 Weitere Operatoren >>>>> https://www.ionos.de/digitalguide/websites/web-entwicklung/java-operator/
 
-// Variablen deklarieren
-int x; 								// Hier wird eine Variable als int deklariert
+// Variablen deklarieren	
+int x; 									// Hier wird eine Variable als int deklariert
 
 // Variable umwandeln
-variable1 = (int) variable2					// Variable2 wird in int umgewandelt. Das Resultat in variable1 gespeichert
+variable1 = (int) variable2						// Variable2 wird in int umgewandelt. Das Resultat in variable1 gespeichert
 
 // Konstante deklarieren
-final int x;							// Hier wird eine Konstante als int deklariert
+final int x;								// Hier wird eine Konstante als int deklariert
 
 // Schleifen
-for								// Wenn bekannt ist, wie viele Wiederholungen ausgeführt werden sollen
-while								// Nicht bekannt ist, wie viele Wiederholungen ausgeführt werden sollen
-do-while							// Mindestens ein Schleifendurchgang
+for									// Wenn bekannt ist, wie viele Wiederholungen ausgeführt werden sollen
+while									// Nicht bekannt ist, wie viele Wiederholungen ausgeführt werden sollen
+do-while								// Mindestens ein Schleifendurchgang
 
 // Array
-int [] karten = new int [6];					// Deklariert ein Array mit int und deklariert 6 mit int mit dem Index 0 - 5
+int [] karten = new int [6];						// Deklariert ein Array mit int und deklariert 6 mit int mit dem Index 0 - 5
+Datentyp [][] meinArray = new Datentyp [anzahlZeilen][anzahlSpalten];	// Zweidimensionale Arrays werden wie folgt deklariert
+name [Zeilennummer][Spaltennummer] = Wert;				// Auf eine einzelne Komponente eines zweidimensonalen Arrays verweisen
 
 
 Eine Wiederholung von Anweisungen in einem Programm nennt man Schleife (engl. loop).
@@ -66,14 +68,14 @@ do-while-Schleifen werden verwendet, wenn mindestens ein Schleifendurchgang gema
 System.out.println("Eingabe: " + a);
 
 // Eingabe in Konsole
-import java.util.Scanner;					// Einfügen oberhalb public class
-Scanner eingabe = new Scanner(System.in);			// Einfügen unterhalb public static void.main(...
-int x;								// Deklarieren der Variable hier als int
-x = eingabe.nextInt();						// Eingabe über Konsole und speicherung in Variable hier x
+import java.util.Scanner;						// Einfügen oberhalb public class
+Scanner eingabe = new Scanner(System.in);				// Einfügen unterhalb public static void.main(...
+int x;									// Deklarieren der Variable hier als int
+x = eingabe.nextInt();							// Eingabe über Konsole und speicherung in Variable hier x
 
 // Runden von Eingaben
-x = Math.round(x * 100) / 100.0;				// Auf zwei Stellen Datentyp double
-x = Math.round(x * 100) / 100.0f;				// Auf zwei Stellen Datentyp float
+x = Math.round(x * 100) / 100.0;					// Auf zwei Stellen Datentyp double
+x = Math.round(x * 100) / 100.0f;					// Auf zwei Stellen Datentyp float
 
 // Konvention Variablen und Klassen
 Nie ein _ verwenden für variablen und Klassen. Als Ausnahme z.B. _variable wenn es sich um eine private Variable handelt.
