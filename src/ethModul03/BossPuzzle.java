@@ -37,11 +37,12 @@ public class BossPuzzle {
             int zug_spalte = eingabe.nextInt();
 
             // Perform move
-            spielfeld[leer_zeile][leer_spalte] = spielfeld[zug_zeile - 1][zug_spalte - 1];
+            spielfeld[leer_zeile - 1][leer_spalte - 1] = spielfeld[zug_zeile - 1][zug_spalte - 1];
             spielfeld[zug_zeile - 1][zug_spalte - 1] = ' ';
 
-            leer_zeile = --zug_zeile;
-            leer_spalte = --zug_spalte; // zug_spalte - 1 funktioniert nicht auch nicht in () !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            leer_zeile = zug_zeile - 1;
+            leer_spalte = zug_spalte - 1;
+
 
             // The new playground after move
             System.out.println("S   1 2 3");
@@ -53,10 +54,6 @@ public class BossPuzzle {
                 }
                 System.out.println("");
             }
-            System.out.println("Leere Zeile: " + (leer_zeile + 1));
-            System.out.println("Leere Spalte: " + (leer_spalte + 1));
-            System.out.println("Zug Zeile: " + zug_zeile);
-            System.out.println("Zug Spalte: " + zug_spalte);
         }
     }
 }

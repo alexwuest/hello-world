@@ -80,4 +80,33 @@ x = Math.round(x * 100) / 100.0f;					// Auf zwei Stellen Datentyp float
 // Konvention Variablen und Klassen
 Nie ein _ verwenden für variablen und Klassen. Als Ausnahme z.B. _variable wenn es sich um eine private Variable handelt.
 
+/////////////////////////////////////////
+/// Grundbegriffe OOP
+/////////////////////////////////////////
+
+ Objekt Java-Objekte modellieren Objekte eines Anwendungsbereichs.
+ Klasse Objekte werden durch Klassen erzeugt. Eine Klasse beschreibt eine
+bestimmte Art von Objekten; Objekte repräsentieren individuelle Instanzen
+einer Klasse.
+ Methode Wir können mit Objekten kommunizieren, indem wir ihre Methoden
+aufrufen. Ein Objekt tut üblicherweise etwas, wenn eine seiner Methoden
+aufgerufen wird.
+ Parameter Methoden können Parameter haben, mit denen zusätzliche
+Informationen für eine Aufgabe angegeben werden.
+ Signatur Der Name und die Parametertypen einer Methode werden als
+deren Signatur bezeichnet. Sie benennt die benötigten Informationen für
+einen Aufruf der Methode.
+ Typ Parameter haben Typen. Ein Typ definiert, welche Arten von Werten
+ein Parameter annehmen kann.
+ Eine Klasse, viele Instanzen Von einer Klasse können viele gleichartige
+Instanzen erzeugt werden.
+ Zustand Objekte haben einen Zustand. Dieser Zustand wird durch Werte
+repräsentiert, die in Datenfeldern gehalten werden.
+ Methodenaufrufe Objekte können miteinander kommunizieren, indem
+sie gegenseitig ihre Methoden aufrufen.
+ Quelltext Der Quelltext einer Klasse legt die Struktur und das Verhalten
+(die Datenfelder und die Methoden) aller Instanzen dieser Klasse fest.
+ Ergebnis Methoden können Informationen über ein Objekt durch einen
+Ergebniswert zurückliefern.
+
 
